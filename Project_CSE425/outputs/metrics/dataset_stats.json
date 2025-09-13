@@ -1,0 +1,47 @@
+{
+    "dataset": "FashionMNIST",
+    "train_samples": 60000,
+    "test_samples": 10000,
+    "image_shape": [
+        1,
+        28,
+        28
+    ],
+    "num_classes": 10,
+    "class_names": [
+        "T-shirt/top",
+        "Trouser",
+        "Pullover",
+        "Dress",
+        "Coat",
+        "Sandal",
+        "Shirt",
+        "Sneaker",
+        "Bag",
+        "Ankle boot"
+    ],
+    "train_distribution": [
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000,
+        6000
+    ],
+    "test_distribution": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+    ]
+}
